@@ -1,10 +1,11 @@
-import React from 'react';
-import './SecondExample.css';
+import React from "react";
+import { Row, Col } from "reactstrap";
+import "./SecondExample.css";
 
 const SecondExample = () => (
   <div className="SecondExample">
     <p className="SecondExample-text">
-      Based on Facebook's {'\u00A0'}
+      Based on Facebook's {"\u00A0"}
       <a
         className="SecondExample-link"
         target="_blank"
@@ -22,6 +23,28 @@ const SecondExample = () => (
     >
       Documentation
     </a>
+    <Row>
+      <Col>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cur igitur
+        easdem res, inquam, Peripateticis dicentibus verbum nullum est, quod non
+        intellegatur?
+      </Col>
+      <Col>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cur igitur
+        easdem res, inquam, Peripateticis dicentibus verbum nullum est, quod non
+        intellegatur?
+      </Col>
+      <Col>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cur igitur
+        easdem res, inquam, Peripateticis dicentibus verbum nullum est, quod non
+        intellegatur?
+      </Col>
+      <Col>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cur igitur
+        easdem res, inquam, Peripateticis dicentibus verbum nullum est, quod non
+        intellegatur?
+      </Col>
+    </Row>
   </div>
 );
 
